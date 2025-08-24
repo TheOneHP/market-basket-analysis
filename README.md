@@ -63,17 +63,6 @@ Para executar a pipeline completa, siga os passos abaixo:
 
 ## Resultados e Recomendações
 
-A análise revela padrões de compra que podem ser usados para otimizar estratégias de marketing e layout de loja. Abaixo, um exemplo das regras encontradas no primeiro dataset:
-
-```
-                                                            antecedents                                                         consequents  ...  zhangs_metric
-158  (ROSES REGENCY TEACUP AND SAUCER, GREEN REGENCY TEACUP AND SAUCER)                                    (PINK REGENCY TEACUP AND SAUCER)  ...       0.983493
-161                                    (PINK REGENCY TEACUP AND SAUCER)  (ROSES REGENCY TEACUP AND SAUCER, GREEN REGENCY TEACUP AND SAUCER)  ...       0.983752
-157   (ROSES REGENCY TEACUP AND SAUCER, PINK REGENCY TEACUP AND SAUCER)                                   (GREEN REGENCY TEACUP AND SAUCER)  ...       0.973435
-162                                   (GREEN REGENCY TEACUP AND SAUCER)   (ROSES REGENCY TEACUP AND SAUCER, PINK REGENCY TEACUP AND SAUCER)  ...       0.994450
-26                                     (PINK REGENCY TEACUP AND SAUCER)                                   (GREEN REGENCY TEACUP AND SAUCER)  ...       0.976308
-```
-
 ### Recomendações de Negócio
 
 *   **Cross-selling:** Itens com alto `lift` e `confidence` devem ser alvos de campanhas de cross-selling. Por exemplo, se a análise mostra que "pão" e "manteiga" são frequentemente comprados juntos, um desconto em um item pode ser oferecido na compra do outro.
