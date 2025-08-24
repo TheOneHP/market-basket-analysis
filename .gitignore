@@ -1,0 +1,10 @@
+
+# Python cache
+__pycache__/
+
+# Datasets (devem ser baixados via script)
+groceries_dataset/
+raw_retail_dataset/
+
+# Arquivos de dados preparados (gerados pelos scripts)
+*.pkl
